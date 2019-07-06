@@ -10,7 +10,7 @@ const double ARC_HEIGHT = 70;
 const double ARC_WIDTH = 90;
 const double CIRCLE_OUTLINE = 10;
 const double SHADOW_ALLOWANCE = 20;
-const double BAR_HEIGHT = 60;
+const double BAR_HEIGHT = 65;
 
 class FancyBottomNavigation extends StatefulWidget {
   FancyBottomNavigation(
@@ -200,7 +200,7 @@ class FancyBottomNavigationState extends State<FancyBottomNavigation>
                           width: CIRCLE_SIZE - 5,
                           child: Container(
                             decoration: BoxDecoration(
-                                shape: BoxShape.circle, 
+                                shape: BoxShape.circle,
                                 gradient: this.gradient,
                                 color: circleColor),
                             child: Padding(
